@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality: Implement the navigation bar on top of the page, re-arrange the spacing between sub-headers, add a feature that can help to fund the money for a game, add a bar chart displaying the funded money. 
 
 ## Video Walkthrough
 
@@ -36,8 +36,7 @@ GIF created with **Kap**
 
 Describe any challenges encountered while building the app.
 
-* Get used to new 
-
+Some challenges I've faced while building the app was adding images to the its parent element including the attributes itself, there were no example of how to create the value of the *src* attribute of an image element using the given path in the array. Also, destructuring and the spread operator is sort of difficult to understand. And, some secret key questions are very ambiguous. 
 
 ## License
 
