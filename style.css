@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #a3c3ec;
 }
 
 #tentacles {
@@ -10,14 +10,52 @@ body {
 }
 
 .header {
-    display: flex;
-    background-color: lightblue;
-    padding: 1%;
-    align-items: center;
+    background-color: rgb(158, 82, 229);
+    display: flex; 
+    flex-direction: row;
+    overflow: hidden;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
 }
+
+.intro {
+    display: flex; 
+    float: left;
+    align-items: center;
+    margin-left: 10px;
+    width: 85%;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+    margin: 0px; 
+    padding: 0px;
+    display: flex;
+    align-self: center;
+    flex-flow: row wrap;
+    list-style: none;
+}
+  
+/* Style the links inside the navigation bar */
+.navbar a {
+    text-decoration: none;
+    padding: 7px 7px;
+    font-size: 30px;
+    text-align: center;
+    color: #a3c3ec;
+}
+
+.navbar a:hover {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
 
 /* We first create a flex layout context */
 .stats-container {
@@ -28,12 +66,11 @@ body {
 /* Any button over which the user's pointer is hovering */
 .stats-container:hover { /*which lets you know if the mouse is over an element or not*/
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(158, 82, 229);
 }
 
-
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #98dfaf;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -68,7 +105,7 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(158, 82, 229);
 }
 
 #button-container {
@@ -81,5 +118,15 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #98dfaf;
+}
+
+#description-container {
+    text-align: center;
 }
 
