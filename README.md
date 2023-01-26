@@ -23,10 +23,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/a/4kqMOph)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/UHjSNkz' title='Video Walkthrough' width='500' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with **Kap**
+GIF created with **Imgur**
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
