@@ -19,9 +19,18 @@ body {
     margin-top: -10px;
 }
 
+/* We first create a flex layout context */
 .stats-container {
-    display: flex;
+    display: flexbox; 
+    align-items: center; /*This defines the alignment along the cross axis.*/
 }
+
+/* Any button over which the user's pointer is hovering */
+.stats-container:hover { /*which lets you know if the mouse is over an element or not*/
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 
 .stats-card {
     background-color: #a8b0bc;
@@ -73,3 +82,4 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
