@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://imgur.com/a/4kqMOph)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with **Kap**
@@ -36,7 +36,7 @@ GIF created with **Kap**
 
 Describe any challenges encountered while building the app.
 
-Some challenges I've faced while building the app was adding images to the its parent element including the attributes itself, there were no example of how to create the value of the *src* attribute of an image element using the given path in the array. Also, destructuring and the spread operator is sort of difficult to understand. And, some secret key questions are very ambiguous. 
+Some challenges I've faced while building the app was adding image to the *games-container* element including the attributes itself, there were no example of how to create the value of the *src* attribute of an image element using the given path in the array. Also, destructuring and the spread operator is sort of difficult to understand, the given example does not clearly explain on how each operator work with the output itself, so that I have to look for some outside resources to learn more about that. And, some secret key questions are very ambiguous to answer. 
 
 ## License
 
