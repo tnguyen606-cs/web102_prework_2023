@@ -21,7 +21,7 @@ body {
 
 /* We first create a flex layout context */
 .stats-container {
-    display: flexbox; 
+    display: flex; 
     align-items: center; /*This defines the alignment along the cross axis.*/
 }
 

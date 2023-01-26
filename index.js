@@ -22,34 +22,51 @@ function deleteChildElements(parent) {
  * Skills used: DOM manipulation, for loops, template literals, functions
 */
 
-// grab the element with the id games-container
+// grab the element with the id games-container from the DOM and saves it to a JavaScript variable
 const gamesContainer = document.getElementById("games-container");
 
 // create a function that adds all data from the games array to the page
 function addGamesToPage(games) {
 
     // loop over each item in the data
-
+    for (let i = 0; i < games.length; i++) { 
+        // console.log(games[i].name);
+        let game = games[i];
 
         // create a new div element, which will become the game card
+        let div = document.createElement("div");
 
-
-        // add the class game-card to the list
-
+        // add the class game-card to the list, /* string with class name here */
+        div.classList.add("game-card");
+        div.id = game.name;
 
         // set the inner HTML using a template literal to display some info 
         // about each game
         // TIP: if your images are not displaying, make sure there is space
         // between the end of the src attribute and the end of the tag ("/>")
+        div.innerHTML = `
+            <h3>${game.name}</h3>
+            <p>${game.description}</p>
+            <p>Backers: ${game.backers}</p>
+            `;
+            
+        // Create img tag
+        let img = document.createElement("img");
+        img.id = game.name + "-img";
+        img.classList.add("game-img");
+        img.src = game.img;
 
+        // Add img to div
+        div.appendChild(img);
 
         // append the game to the games-container
-
+        gamesContainer.appendChild(div);
+    }
 }
 
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
-
+addGamesToPage(GAMES_JSON);
 
 /*************************************************************************************
  * Challenge 4: Create the summary statistics at the top of the page displaying the
